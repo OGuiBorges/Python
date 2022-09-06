@@ -7,9 +7,10 @@ di = n1 // n2
 r = n1 % n2
 e = n1 ** n2
 
-print('A soma é {}'.format(s))
+print('A soma é {:-^20}'.format(s))
 print('A multiplicação é {}'.format(m))
-print('A divisão é {:.3f}'.format(d))
+print('A divisão é {:.1f}'.format(d))
 print('a divisão inteira é {}'.format(di))
+#end=' ' nao quebra linha
 print('O resto da divisão é {}'.format(r), end=' ')
 print('E a potencia \nentre eles é {}'.format(e))
