@@ -1,4 +1,2 @@
-nome = str(input('Digite seu nome: '))
-nome = nome.title()
-nome = 'Silva' in nome
-print("Tem silva no nome: {}".format(nome))
+nome = str(input('Digite seu nome: ')).strip()
+print("Tem silva no nome: {}".format('SILVA' in nome.upper()))
