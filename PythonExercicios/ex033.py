@@ -23,3 +23,28 @@ else:
                     else:
                         print("O terceiro é maior!")
 
+
+if n1 > n2 > n3:
+    print('O maior é o primeiro {}'.format(n1))
+    print('O menor é o terceiro {}'.format(n3))
+else:
+    if n2 > n1 > n3:
+        print('O maior é o segundo {}'.format(n2))
+        print('O menor é o terceiro {}'.format(n3))
+    else:
+        if n3 > n1 > n2:
+            print('O maior é o terceiro {}'.format(n3))
+            print('O menor é o segundo {}'.format(n2))
+        else:
+            if n3 > n2 > n1:
+                print('O maior é o terceiro {}'.format(n3))
+                print('O menor é o primeiro {}'.format(n1))
+            if n2 > n3 > n1:
+                print('O maior é o segundo {}'.format(n2))
+                print('O menor é o primeiro {}'.format(n1))
+            else:
+                if n1 > n3 > n2:
+                    print('O maior é o primeiro {}'.format(n1))
+                    print('O menor é o segundo {}'.format(n2))
+                else:
+                    print('Digitou números iguais!')
