@@ -12,3 +12,5 @@ if a < (b + c) and b < (a + c) and c < (a + b):
     print('PODEM formar triângulo!')
 else:
     print('NÃO PODEM formar triângulo!')
+
+pr
